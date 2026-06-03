@@ -1,0 +1,19 @@
+2026-06-02 11:05:00,776 [WARNING]  * Debugger is active!
+2026-06-02 11:05:00,778 [INFO]  * Debugger PIN: 300-815-962
+2026-06-02 11:06:31,335 [INFO] 127.0.0.1 - - [02/Jun/2026 11:06:31] "POST /predict HTTP/1.1" 200 -
+2026-06-02 11:16:35,007 [INFO] 127.0.0.1 - - [02/Jun/2026 11:16:35] "GET / HTTP/1.1" 200 -
+2026-06-02 11:16:35,279 [INFO]  * Detected change in 'D:\\ML_PROJECT\\app.py', reloading
+2026-06-02 11:35:10,759 [INFO] [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:5000
+ * Running on http://192.168.1.7:5000
+2026-06-02 11:35:10,760 [INFO] [33mPress CTRL+C to quit[0m
+2026-06-02 11:35:10,761 [INFO]  * Restarting with stat
+2026-06-02 11:35:12,205 [WARNING]  * Debugger is active!
+2026-06-02 11:35:12,209 [INFO]  * Debugger PIN: 300-815-962
+2026-06-02 11:35:12,523 [INFO] 127.0.0.1 - - [02/Jun/2026 11:35:12] "GET / HTTP/1.1" 200 -
+2026-06-02 11:35:12,677 [INFO] 127.0.0.1 - - [02/Jun/2026 11:35:12] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+2026-06-02 11:38:40,786 [INFO]  * Detected change in 'D:\\ML_PROJECT\\app.py', reloading
+2026-06-02 11:38:40,957 [INFO]  * Restarting with stat
+2026-06-02 11:38:42,542 [WARNING]  * Debugger is active!
+2026-06-02 11:38:42,546 [INFO]  * Debugger PIN: 300-815-962
