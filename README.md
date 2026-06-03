@@ -273,6 +273,11 @@ http://127.0.0.1:5000
 
 ---
 
+
+## Live Project in Render 
+
+ -  https://ai-powered-diabetes-healthcare-system.onrender.com
+   
 ## 💡 Key Features
 
 - Multi-Class Diabetes Prediction
