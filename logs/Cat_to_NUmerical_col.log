@@ -1,0 +1,29 @@
+2026-05-24 10:59:07,290 - INFO - Before doing Train Categorical to numerical : Index(['gender', 'physical_activity', 'smoking_status', 'diagnosis'], dtype='str') 
+ : and its shape (12000, 4)
+2026-05-24 10:59:07,291 - INFO - Before doing Test Categorical to numerical : Index(['gender', 'physical_activity', 'smoking_status', 'diagnosis'], dtype='str') 
+ : and its shape (3000, 4)
+2026-05-24 10:59:07,291 - INFO - ============= Applying the nominal encoder(OneHotEncoder) ========================= 
+2026-05-24 10:59:07,291 - INFO -  Columns are gender 
+2026-05-24 10:59:07,296 - INFO - Before doing Train Categorical to numerical : Index(['physical_activity', 'smoking_status', 'gender_Male'], dtype='str') 
+ : and its shape (12000, 3)
+2026-05-24 10:59:07,296 - INFO - Before doing Test Categorical to numerical : Index(['physical_activity', 'smoking_status', 'gender_Male'], dtype='str') 
+ : and its shape (3000, 3)
+2026-05-24 10:59:07,296 - INFO - ====================  OrdinalEncoder  =======================
+2026-05-24 10:59:07,301 - INFO - After Ordinal X_train_cat Column : (12000, 3) : 
+ : Index(['gender_Male', 'physical_activity_ordinal', 'smoking_status_ordinal'], dtype='str')
+2026-05-24 10:59:07,301 - INFO - After Ordinal X_test_cat Column : (3000, 3) : 
+ : Index(['gender_Male', 'physical_activity_ordinal', 'smoking_status_ordinal'], dtype='str')
+2026-05-24 10:59:07,304 - INFO - Checking the Data        gender_Male  physical_activity_ordinal  smoking_status_ordinal
+0              0.0                        3.0                     2.0
+1              1.0                        3.0                     2.0
+2              0.0                        2.0                     2.0
+3              0.0                        3.0                     2.0
+4              1.0                        2.0                     2.0
+...            ...                        ...                     ...
+11995          1.0                        3.0                     0.0
+11996          1.0                        1.0                     2.0
+11997          1.0                        3.0                     2.0
+11998          1.0                        3.0                     1.0
+11999          0.0                        2.0                     2.0
+
+[12000 rows x 3 columns]

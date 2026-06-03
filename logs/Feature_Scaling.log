@@ -1,0 +1,36 @@
+2026-05-24 10:59:07,372 - INFO -  Before applying the feature scaling Training data Index(['family_history_diabetes_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'bmi_ranyeo_CapMS', 'gender_Male', 'physical_activity_ordinal',
+       'smoking_status_ordinal'],
+      dtype='str') and its shape (14958, 11)
+2026-05-24 10:59:07,378 - INFO -  Before applying the feature scaling Testing data       family_history_diabetes_tri  glucose_mg_dlyeo_tri  fasting_glucose_mg_dlyeo_tri  ...  gender_Male  physical_activity_ordinal  smoking_status_ordinal
+0                             0.0             32.527752                     14.895996  ...          0.0                        3.0                     1.0
+1                             1.0             26.988839                     25.833238  ...          0.0                        2.0                     1.0
+2                             0.0             20.693034                     20.412838  ...          1.0                        2.0                     2.0
+3                             0.0             29.670121                     23.985789  ...          1.0                        2.0                     0.0
+4                             0.0             16.877816                     25.314980  ...          1.0                        1.0                     1.0
+...                           ...                   ...                           ...  ...          ...                        ...                     ...
+2995                          1.0             36.559880                     26.344363  ...          0.0                        0.0                     1.0
+2996                          0.0             35.098208                     19.017785  ...          1.0                        1.0                     2.0
+2997                          1.0             22.837517                     23.439648  ...          1.0                        3.0                     1.0
+2998                          0.0             30.157225                     22.177358  ...          1.0                        1.0                     1.0
+2999                          0.0             29.013337                     28.564155  ...          1.0                        1.0                     1.0
+
+[3000 rows x 11 columns]
+2026-05-24 10:59:07,413 - INFO - The Confusion Matrix 
+ [[752 196  10]
+ [269 792 217]
+ [ 13 230 521]]
+2026-05-24 10:59:07,413 - INFO - The Accuracy is : 0.6883333333333334
+2026-05-24 10:59:07,418 - INFO - The Classification Report is : 
+               precision    recall  f1-score   support
+
+           0       0.73      0.78      0.76       958
+           1       0.65      0.62      0.63      1278
+           2       0.70      0.68      0.69       764
+
+    accuracy                           0.69      3000
+   macro avg       0.69      0.70      0.69      3000
+weighted avg       0.69      0.69      0.69      3000
+

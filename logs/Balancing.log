@@ -1,0 +1,26 @@
+2026-05-24 10:59:07,305 - INFO - ====================== Applying the SMOTE (over sampling the data) =============================
+2026-05-24 10:59:07,305 - INFO - Total Training Data Index(['family_history_diabetes_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'bmi_ranyeo_CapMS', 'gender_Male', 'physical_activity_ordinal',
+       'smoking_status_ordinal'],
+      dtype='str') and shape (12000, 11)
+2026-05-24 10:59:07,305 - INFO - Total Testing Data Index(['family_history_diabetes_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'bmi_ranyeo_CapMS', 'gender_Male', 'physical_activity_ordinal',
+       'smoking_status_ordinal'],
+      dtype='str') and shape (3000, 11)
+2026-05-24 10:59:07,306 - INFO -  Checking how many are Good rows : 4986
+2026-05-24 10:59:07,306 - INFO - Chacking how many  pre to diabiates: 3015
+2026-05-24 10:59:07,306 - INFO -  Checking how many are Bad rows : 3999 
+2026-05-24 10:59:07,362 - INFO - Total Training Data Index(['family_history_diabetes_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'bmi_ranyeo_CapMS', 'gender_Male', 'physical_activity_ordinal',
+       'smoking_status_ordinal'],
+      dtype='str') and shape (14958, 11)
+2026-05-24 10:59:07,362 - INFO - Total Testing Data shape (14958,)
+2026-05-24 10:59:07,363 - INFO -  Checking how many are Good rows : 4986
+2026-05-24 10:59:07,363 - INFO - Chacking how many  pre to diabiates: 4986
+2026-05-24 10:59:07,364 - INFO -  Checking how many are Bad rows : 4986 

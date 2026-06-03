@@ -1,0 +1,105 @@
+2026-05-24 10:59:07,123 - INFO - ===============================  Variable Transformation  ====================================
+2026-05-24 10:59:07,123 - INFO - Before apply Train numerical columns and shapes variable Transformation 
+ : Index(['age', 'pregnancies', 'skin_thickness_mm', 'sbp_mmhg', 'dbp_mmhg',
+       'glucose_mg_dl', 'fasting_glucose_mg_dl', 'ogtt_2hr_mg_dl', 'hba1c_pct',
+       'ldl_mg_dl', 'hdl_mg_dl', 'triglycerides_mg_dl', 'creatinine_mg_dl',
+       'family_history_diabetes', 'hypertension', 'bmi_ran',
+       'insulin_mu_l_ran'],
+      dtype='str') : (12000, 17)
+2026-05-24 10:59:07,123 - INFO - Before apply Test numerical columns and shapes variable Transformation 
+ : Index(['age', 'pregnancies', 'skin_thickness_mm', 'sbp_mmhg', 'dbp_mmhg',
+       'glucose_mg_dl', 'fasting_glucose_mg_dl', 'ogtt_2hr_mg_dl', 'hba1c_pct',
+       'ldl_mg_dl', 'hdl_mg_dl', 'triglycerides_mg_dl', 'creatinine_mg_dl',
+       'family_history_diabetes', 'hypertension', 'bmi_ran',
+       'insulin_mu_l_ran'],
+      dtype='str') : (3000, 17)
+2026-05-24 10:59:07,244 - INFO - After apply Train numerical columns and shapes variable Transformation 
+ : Index(['age', 'pregnancies', 'family_history_diabetes', 'hypertension',
+       'skin_thickness_mmyeo', 'sbp_mmhgyeo', 'dbp_mmhgyeo',
+       'glucose_mg_dlyeo', 'fasting_glucose_mg_dlyeo', 'ogtt_2hr_mg_dlyeo',
+       'hba1c_pctyeo', 'ldl_mg_dlyeo', 'hdl_mg_dlyeo',
+       'triglycerides_mg_dlyeo', 'creatinine_mg_dlyeo', 'bmi_ranyeo',
+       'insulin_mu_l_ranyeo'],
+      dtype='str') : (12000, 17)
+2026-05-24 10:59:07,244 - INFO - After apply Test numerical columns and shapes variable Transformation 
+ : Index(['age', 'pregnancies', 'family_history_diabetes', 'hypertension',
+       'skin_thickness_mmyeo', 'sbp_mmhgyeo', 'dbp_mmhgyeo',
+       'glucose_mg_dlyeo', 'fasting_glucose_mg_dlyeo', 'ogtt_2hr_mg_dlyeo',
+       'hba1c_pctyeo', 'ldl_mg_dlyeo', 'hdl_mg_dlyeo',
+       'triglycerides_mg_dlyeo', 'creatinine_mg_dlyeo', 'bmi_ranyeo',
+       'insulin_mu_l_ranyeo'],
+      dtype='str') : (3000, 17)
+2026-05-24 10:59:07,244 - INFO -  ================================== Outliers ============================================
+2026-05-24 10:59:07,275 - INFO - After apply Train numerical columns and shapes Outliers 
+ : Index(['pregnancies_tri', 'family_history_diabetes_tri', 'hypertension_tri',
+       'skin_thickness_mmyeo_tri', 'dbp_mmhgyeo_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'ldl_mg_dlyeo_tri', 'hdl_mg_dlyeo_tri',
+       'triglycerides_mg_dlyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'creatinine_mg_dlyeo_CapMS', 'bmi_ranyeo_CapMS',
+       'insulin_mu_l_ranyeo_CapMS'],
+      dtype='str') : (12000, 17)
+2026-05-24 10:59:07,275 - INFO - After apply Test numerical columns and shapes Outliters 
+ : Index(['pregnancies_tri', 'family_history_diabetes_tri', 'hypertension_tri',
+       'skin_thickness_mmyeo_tri', 'dbp_mmhgyeo_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'ldl_mg_dlyeo_tri', 'hdl_mg_dlyeo_tri',
+       'triglycerides_mg_dlyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'creatinine_mg_dlyeo_CapMS', 'bmi_ranyeo_CapMS',
+       'insulin_mu_l_ranyeo_CapMS'],
+      dtype='str') : (3000, 17)
+2026-05-24 10:59:07,275 - INFO - ++++++++++++++++++++++++++++  Feature Selection     ++++++++++++++++++++++++
+2026-05-24 10:59:07,275 - INFO - ============================   Constant Technique    =============================
+2026-05-24 10:59:07,278 - INFO - Checking the Train Good Column 16 : Index(['pregnancies_tri', 'family_history_diabetes_tri',
+       'skin_thickness_mmyeo_tri', 'dbp_mmhgyeo_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'ldl_mg_dlyeo_tri', 'hdl_mg_dlyeo_tri',
+       'triglycerides_mg_dlyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'creatinine_mg_dlyeo_CapMS', 'bmi_ranyeo_CapMS',
+       'insulin_mu_l_ranyeo_CapMS'],
+      dtype='str')
+2026-05-24 10:59:07,279 - INFO - Checking the Train Bad Column 1 : Index(['hypertension_tri'], dtype='str')
+2026-05-24 10:59:07,279 - INFO - Checking the Test Good Column 16 : Index(['pregnancies_tri', 'family_history_diabetes_tri',
+       'skin_thickness_mmyeo_tri', 'dbp_mmhgyeo_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'ldl_mg_dlyeo_tri', 'hdl_mg_dlyeo_tri',
+       'triglycerides_mg_dlyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'creatinine_mg_dlyeo_CapMS', 'bmi_ranyeo_CapMS',
+       'insulin_mu_l_ranyeo_CapMS'],
+      dtype='str')
+2026-05-24 10:59:07,279 - INFO - Checking the Test Bad Column 1 : Index(['hypertension_tri'], dtype='str')
+2026-05-24 10:59:07,279 - INFO - =================== Quasi Constant Technique ================================
+2026-05-24 10:59:07,281 - INFO - Checking the Train Good Column 16 : Index(['pregnancies_tri', 'family_history_diabetes_tri',
+       'skin_thickness_mmyeo_tri', 'dbp_mmhgyeo_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'ldl_mg_dlyeo_tri', 'hdl_mg_dlyeo_tri',
+       'triglycerides_mg_dlyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'creatinine_mg_dlyeo_CapMS', 'bmi_ranyeo_CapMS',
+       'insulin_mu_l_ranyeo_CapMS'],
+      dtype='str')
+2026-05-24 10:59:07,281 - INFO - Checking the Train Bad Column 1 : Index(['hypertension_tri'], dtype='str')
+2026-05-24 10:59:07,281 - INFO - Checking the Test Good Column 16 : Index(['pregnancies_tri', 'family_history_diabetes_tri',
+       'skin_thickness_mmyeo_tri', 'dbp_mmhgyeo_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'ldl_mg_dlyeo_tri', 'hdl_mg_dlyeo_tri',
+       'triglycerides_mg_dlyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'creatinine_mg_dlyeo_CapMS', 'bmi_ranyeo_CapMS',
+       'insulin_mu_l_ranyeo_CapMS'],
+      dtype='str')
+2026-05-24 10:59:07,281 - INFO - Checking the Test Bad Column 1 : Index(['hypertension_tri'], dtype='str')
+2026-05-24 10:59:07,281 - INFO - =================== Hypothesis Testing Technique =============================
+2026-05-24 10:59:07,281 - INFO - the X_train values (12000, 17)
+2026-05-24 10:59:07,281 - INFO - the y_train values (12000,)
+2026-05-24 10:59:07,289 - INFO - Checking the Good Columns: ['family_history_diabetes_tri', 'glucose_mg_dlyeo_tri', 'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri', 'hba1c_pctyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS', 'bmi_ranyeo_CapMS']
+2026-05-24 10:59:07,290 - INFO - After apply Train numerical columns and shapes Feature_Selection 
+ : Index(['family_history_diabetes_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'bmi_ranyeo_CapMS'],
+      dtype='str') : (12000, 8)
+2026-05-24 10:59:07,290 - INFO - After apply Test numerical columns and shapes Feature_Selection 
+ : Index(['family_history_diabetes_tri', 'glucose_mg_dlyeo_tri',
+       'fasting_glucose_mg_dlyeo_tri', 'ogtt_2hr_mg_dlyeo_tri',
+       'hba1c_pctyeo_tri', 'age_CapMS', 'sbp_mmhgyeo_CapMS',
+       'bmi_ranyeo_CapMS'],
+      dtype='str') : (3000, 8)
